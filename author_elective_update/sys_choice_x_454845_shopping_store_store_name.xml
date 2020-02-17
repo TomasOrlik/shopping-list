@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="store_name" table="x_454845_shopping_store" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>store_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Target</label>
+            <language>en</language>
+            <name>x_454845_shopping_store</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-17 09:54:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f02c6b89dbc300102326560868961994</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-17 09:54:37</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>store_name</element>
+            <name>x_454845_shopping_store</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-17 09:54:37</sys_created_on>
+            <sys_id>7cac6f89dbc3001023265608689619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>store_name</sys_name>
+            <sys_package display_value="Shopping List" source="x_454845_shopping">2d692bc5dbc3001023265608689619e6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Shopping List">2d692bc5dbc3001023265608689619e6</sys_scope>
+            <sys_update_name>sys_choice_x_454845_shopping_store_store_name</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-17 09:54:37</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Shopping List">2d692bc5dbc3001023265608689619e6</application>
+        <file_path/>
+        <instance_id>1a50f30c6f175240f51e7b2f5d3ee430</instance_id>
+        <instance_name>dev24178</instance_name>
+        <name>sys_choice_x_454845_shopping_store_store_name</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="store_name" table="x_454845_shopping_store" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>store_name</element><hint/><inactive>false</inactive><label>Target</label><language>en</language><name>x_454845_shopping_store</name><sequence/><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-17 09:54:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f02c6b89dbc300102326560868961994</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-17 09:54:37</sys_updated_on><value/></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>store_name</element><name>x_454845_shopping_store</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-17 09:54:37</sys_created_on><sys_id>7cac6f89dbc3001023265608689619b9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>store_name</sys_name><sys_package display_value="Shopping List" source="x_454845_shopping">2d692bc5dbc3001023265608689619e6</sys_package><sys_policy/><sys_scope display_value="Shopping List">2d692bc5dbc3001023265608689619e6</sys_scope><sys_update_name>sys_choice_x_454845_shopping_store_store_name</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-17 09:54:37</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>393370428</payload_hash>
+        <record_name>Store.Store name</record_name>
+        <reverted_from/>
+        <source>2d692bc5dbc3001023265608689619e8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-17 09:59:31</sys_created_on>
+        <sys_id>a4cd670ddbc30010232656086896197c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1705296add10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-17 09:59:31</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>20cd670d41c3001065926c6016d5ef7c</update_guid>
+        <update_guid_history>20cd670d41c3001065926c6016d5ef7c:393370428,68cd670dc2c300103edbd01e1cc2a479:876874491,a0cd670d16c30010552da0605c884f77:-213690168,64cde30d1ec300101f4c0f5d4027c86a:436561701,accde30de5c30010232284cae819e567:-2108945150,a4cde30d56c300104426e699ab324065:1394773161,97cceb098bc30010eb93a953c306e9fc:-9292148,0ecca7c5a7c3001031394133524b2167:-1978716673,73bc6b8924c30010227c91e29bc03899:-1921258244,9ebc2b8996c300103bbd1b554c8c4501:1489724085,d8bce7896fc30010e06c6ec473ebb0c1:31287970,8face78922c300107e510289beec3380:-206389921,f0ac6f8988c30010442683a5155ab2bb:393370428</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-17 09:59:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>7cac6f89dbc3001023265608689619b9</sys_id>
+        <sys_metadata>7cac6f89dbc3001023265608689619b9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>store_name</sys_name>
+        <sys_package display_value="Shopping List" source="x_454845_shopping">2d692bc5dbc3001023265608689619e6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Shopping List">2d692bc5dbc3001023265608689619e6</sys_scope>
+        <sys_scope_delete display_value="">1d4a97138bae4208bed5445ebefb7890</sys_scope_delete>
+        <sys_update_name>sys_choice_x_454845_shopping_store_store_name</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_454845_shopping_store_store_name">a4cd670ddbc30010232656086896197c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-17 09:59:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
